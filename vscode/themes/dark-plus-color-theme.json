@@ -231,6 +231,9 @@
     "stringLiteral": "#CE9178",
     "customLiteral": "#FF9000",
     "numberLiteral": "#b5cea8",
+    "namespace": {
+      "foreground": "#4EC9B0"
+    },
     "function": {
       "foreground": "#FF9000"
     },
