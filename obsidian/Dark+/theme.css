@@ -1,0 +1,141 @@
+.theme-dark {
+	--color-base-00: 	#1f2126;
+	--color-base-05: 	#111111;
+	--color-base-10: 	#131313;
+	--color-base-20: 	#151515;
+	--color-base-25: 	#171717;
+	--color-base-30: 	 #1f2126;
+	--color-base-35: 	#272727;
+	--color-base-40: 	#333333;
+	--color-base-50: 	#404040;
+	--color-base-60: 	#666666;
+	--color-base-70:rgb(174, 174, 174);
+	--color-base-100: 	#cbcbcb;
+	
+	--background-secondary: #1f2126;
+	--background-secondary-alt: #151515;
+
+  --code-keyword: #2781CC;
+  --code-type: #00E6FF;
+  --code-variable: #8c6ff7;
+  --code-function: #FF9000;
+  --code-parameter: #FFF349;
+  --code-operator: #D0FF90;
+  --code-punctuation: #D0FF90;
+  --code-method: #FF9000;
+  --code-entity: #00E6FF;
+  --code-string: #CE9178;
+  --code-number: #B5CEA8;
+  --code-comment: #6A9955;
+}
+
+.cm-s-obsidian {
+  --code-keyword: #2781CC;
+  --code-type: #00E6FF;
+  --code-variable: #8c6ff7;
+  --code-function: #FF9000;
+  --code-parameter: #FFF349;
+  --code-operator: #D0FF90;
+  --code-punctuation: #D0FF90;
+  --code-method: #FF9000;
+  --code-entity: #00E6FF;
+  --code-string: #CE9178;
+  --code-number: #B5CEA8;
+  --code-comment: #6A9955;
+}
+
+.cm-s-obsidian span.cm-keyword { color: var(--code-keyword); }
+.cm-s-obsidian span.cm-type { color: var(--code-type); }
+.cm-s-obsidian span.cm-variable { color: var(--code-variable); }
+.cm-s-obsidian span.cm-variable-2 { color: var(--code-variable); }
+.cm-s-obsidian span.cm-variable-3 { color: var(--code-variable); }
+.cm-s-obsidian span.cm-def { color: var(--code-function); }
+.cm-s-obsidian span.cm-property { color: var(--code-function); }
+.cm-s-obsidian span.cm-operator { color: var(--code-operator); }
+.cm-s-obsidian span.cm-meta { color: var(--code-keyword); }
+.cm-s-obsidian span.cm-tag { color: var(--code-keyword); }
+.cm-s-obsidian span.cm-attribute { color: var(--code-type); }
+.cm-s-obsidian span.cm-qualifier { color: var(--code-type); }
+.cm-s-obsidian span.cm-bracket { color: var(--code-punctuation); }
+.cm-s-obsidian span.cm-string { color: var(--code-string); }
+.cm-s-obsidian span.cm-number { color: var(--code-number); }
+.cm-s-obsidian span.cm-comment { color: var(--code-comment); }
+.cm-s-obsidian span.cm-variable.cm-parameter { color: var(--code-parameter); }
+
+.markdown-rendered code {
+  color: var(--code-variable);
+}
+
+.markdown-rendered code.language-json .token.property {
+  color: var(--code-keyword) !important;
+}
+
+.markdown-rendered code.language-json .token.string {
+  color: var(--code-string) !important;
+}
+
+.markdown-rendered code.language-json .token.number {
+  color: var(--code-number) !important;
+}
+
+.markdown-rendered code.language-json .token.boolean,
+.markdown-rendered code.language-json .token.null {
+  color: var(--code-type) !important;
+}
+
+.markdown-rendered code.language-json .token.punctuation {
+  color: var(--code-punctuation) !important;
+}
+
+.markdown-rendered pre > code {
+  --code-text: #bbbbbb;
+  --code-keyword: #2781CC;
+  --code-type: #00E6FF;
+  --code-variable: #8c6ff7;
+  --code-function: #FF9000;
+  --code-string: #CE9178;
+  --code-number: #B5CEA8;
+  --code-comment: #6A9955;
+  --code-operator: #D0FF90;
+  --code-punctuation: #D0FF90;
+}
+
+.markdown-rendered .token.keyword,
+.markdown-rendered .token.operator,
+.markdown-rendered .token.boolean {
+  color: var(--code-keyword) !important;
+}
+
+.markdown-rendered .token.function {
+  color: var(--code-function) !important;
+}
+
+.markdown-rendered .token.string,
+.markdown-rendered .token.char {
+  color: var(--code-string) !important;
+}
+
+.markdown-rendered .token.number {
+  color: var(--code-number) !important;
+}
+
+.markdown-rendered .token.comment {
+  color: var(--code-comment) !important;
+}
+
+.markdown-rendered .token.punctuation {
+  color: var(--code-punctuation) !important;
+}
+
+.markdown-rendered .token.attr-name,
+.markdown-rendered .token.selector {
+  color: var(--code-variable) !important;
+}
+
+.markdown-rendered .token.tag {
+  color: var(--code-type) !important;
+}
+
+.markdown-rendered code * {
+  color: inherit !important;
+}
