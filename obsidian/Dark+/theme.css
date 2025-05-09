@@ -4,7 +4,7 @@
 	--color-base-10: 	#131313;
 	--color-base-20: 	#151515;
 	--color-base-25: 	#171717;
-	--color-base-30: 	 #1f2126;
+	--color-base-30: 	#404040;
 	--color-base-35: 	#272727;
 	--color-base-40: 	#333333;
 	--color-base-50: 	#404040;
@@ -138,4 +138,37 @@
 
 .markdown-rendered code * {
   color: inherit !important;
+}
+
+.dataview.table-view-table,
+.dataview.table-view-table th,
+.dataview.table-view-table td {
+  border: 1px solid #404040;
+  border-collapse: collapse;
+}
+
+.canvas-wrapper {
+  background-color: #000 !important;
+}
+
+.canvas-node-container {
+  background-color: rgba(0, 0, 0) !important;
+}
+
+.canvas-node-content.markdown-embed {
+  color: white !important;
+}
+
+.canvas-node-label {
+  color: white !important;
+  opacity: 0.9;
+}
+
+.canvas-node.is-focused .canvas-node-container {
+  border-color: white !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+
+svg.canvas-background {
+  display: none;
 }
