@@ -1,7 +1,7 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Dark+",
-  "include": "./dark_vs.json",
+  "name": "Manul",
+  "include": "./dark.json",
   "colors": {
     "editor.background": "#1f2126",
     "activityBarBadge.background": "#058fff",

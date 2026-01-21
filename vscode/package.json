@@ -1,7 +1,7 @@
 {
   "name": "manul-vscode",
-  "displayName": "manul-vscode",
-  "description": "manul-vscode",
+  "displayName": "Manul Extension",
+  "description": "Manul Extension",
   "version": "1.0.0",
   "publisher": "manul",
   "engines": {
@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark+",
+        "label": "Manul",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-plus-color-theme.json"
+        "path": "./themes/manul.json"
       }
     ]
   },
